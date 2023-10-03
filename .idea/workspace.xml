@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="95016051-2e43-4673-a861-2fdeacdeac3e" name="Changes" comment="">
+    <list default="true" id="95016051-2e43-4673-a861-2fdeacdeac3e" name="Changes" comment="run a suite test file by name">
       <change beforePath="$PROJECT_DIR$/.github/workflows/maven.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/maven.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -126,6 +126,14 @@
       <option name="presentableId" value="Default" />
       <updated>1696144167347</updated>
     </task>
+    <task id="LOCAL-00001" summary="run a suite test file by name">
+      <created>1696310908017</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1696310908017</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -138,5 +146,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="run a suite test file by name" />
+    <option name="LAST_COMMIT_MESSAGE" value="run a suite test file by name" />
   </component>
 </project>
