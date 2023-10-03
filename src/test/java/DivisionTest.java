@@ -3,7 +3,7 @@ import org.testng.Assert;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
-public class ExampleTest {
+public class DivisionTest {
 
     @DataProvider(name = "Valid Division Data")
     public Object[][] dpMethod() {
