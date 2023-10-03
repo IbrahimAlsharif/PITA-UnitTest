@@ -15,7 +15,8 @@ public class DivisionTest {
     @DataProvider(name = "Invalid Division Data")
     public Object[][] dppMethod() {
         return new Object [][] {
-                {10.0f, 0.0f}
+                {10,0},
+                {-10.0f,0.0f}
         };
     }
 
@@ -25,14 +26,10 @@ public class DivisionTest {
         Assert.assertEquals(calculator.division(x, y),expected);
     }
 
-    @Test(dataProvider = "Invalid Division Data")
-    public void testInvalidInputs(float x, float y){
-    try{
-        new Calculator().division(x,y);}
-    catch (ArithmeticException e){
-        System.out.println(e.getClass());
-        Assert.assertEquals(e.getClass(),ArithmeticException.class);
-    }
+    @Test(dataProvider = "Invalid Division Data", expectedExceptions = ArithmeticException.class)
+    public void testDivideByZero(float x, float y){
+        Calculator calculator= new Calculator();
+        calculator.division(x,y);
     }
 
 }

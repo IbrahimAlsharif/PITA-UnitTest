@@ -11,7 +11,13 @@
             <class name="GradeTest"></class>
         </classes>
     </test>
-<listeners>
-    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
-</listeners>
+    <test name="Annotations Tests">
+        <classes>
+            <class name="AnnTest"></class>
+        </classes>
+    </test>
+
+<!--<listeners>-->
+<!--    <listener class-name="org.uncommons.reportng.HTMLReporter"/>-->
+<!--</listeners>-->
 </suite>
