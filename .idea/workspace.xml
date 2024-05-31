@@ -4,14 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="95016051-2e43-4673-a861-2fdeacdeac3e" name="Changes" comment="give write permission">
-      <change afterPath="$PROJECT_DIR$/src/test/java/AnnTest.java" afterDir="false" />
+    <list default="true" id="95016051-2e43-4673-a861-2fdeacdeac3e" name="Changes" comment="test">
+      <change afterPath="$PROJECT_DIR$/src/test/java/TabsManagement.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Calculator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/DivisionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/DivisionTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/unittest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/unittest.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,13 +35,16 @@
     <option name="version" value="2" />
   </component>
   <component name="ProjectId" id="2W9UCz3fXIRiLorqFb5PCe8V8Fi" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
@@ -54,7 +53,7 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
 }</component>
-  <component name="RunManager" selected="TestNG./Users/ibrahimalsharif/PITA-UnitTest/unittest.xml">
+  <component name="RunManager" selected="TestNG.TabsManagementTest">
     <configuration name="main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.main" />
       <module name="PITA-UnitTest" />
@@ -68,34 +67,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AnnTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="PITA-UnitTest" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="AnnTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AnnTest.test1" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="PITA-UnitTest" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="AnnTest" />
-      <option name="METHOD_NAME" value="test1" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="DivisionTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="PITA-UnitTest" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="DivisionTest" />
       <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TabsManagementTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="PITA-UnitTest" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TabsManagementTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TabsManagementTest.testSignup" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="PITA-UnitTest" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TabsManagementTest" />
+      <option name="METHOD_NAME" value="testSignup" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -114,11 +113,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.TabsManagementTest" />
+        <item itemvalue="TestNG.TabsManagementTest.testSignup" />
         <item itemvalue="TestNG./Users/ibrahimalsharif/PITA-UnitTest/unittest.xml" />
         <item itemvalue="TestNG.DivisionTest" />
         <item itemvalue="Application.main" />
-        <item itemvalue="TestNG.AnnTest" />
-        <item itemvalue="TestNG.AnnTest.test1" />
       </list>
     </recent_temporary>
   </component>
@@ -145,7 +144,14 @@
       <option name="project" value="LOCAL" />
       <updated>1696311549376</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="test">
+      <created>1696330989479</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1696330989479</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -160,8 +166,10 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="run a suite test file by name" />
     <MESSAGE value="give write permission" />
-    <option name="LAST_COMMIT_MESSAGE" value="give write permission" />
+    <MESSAGE value="test" />
+    <option name="LAST_COMMIT_MESSAGE" value="test" />
   </component>
 </project>
